@@ -1,0 +1,30 @@
+1.npm init -y
+    for this command package.json file will be create.
+
+2.npm install -D tailwindcss postcss autoprefixer vite 
+    same as documention but we only add vite it will work like a live server no need to relode.
+    this code will create:
+    i) node modules folder
+    ii) package-lock.json
+ 
+3. npx tailwindcss init -p 
+    same as documention but we only add -p because use use postcss as a same time
+    this code will create:
+    i) postcss.config.js
+    ii) tailwind.config.js
+
+4) in tailwind.config.js file change like this 
+     content: ['*'],
+
+5) in package.json 
+     "start": "echo \"Error: no test specified\" && exit 1" ---- replace) with this code
+    "start": "vite"
+
+6)  @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    paste this 3 code in own css file..
+    we use css/tailwind.css so we paste this code in tailwind.css file
+
+7) npm run start

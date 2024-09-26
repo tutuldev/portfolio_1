@@ -1,0 +1,4 @@
+font size->     text-xs,text-sm,text-base,text-lg,text-xl
+Font Weight->  font-thin,font-normal,font-bold,font-semibold
+Letter Spacing-> tracking-tighter,tracking-tight,tracking-normal,tracking-wide,         tracking-wider,tracking-widest
+Line Height -> leading-3,leading-4,leading(5-10)
