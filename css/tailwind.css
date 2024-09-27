@@ -15,3 +15,9 @@
 }
 
 /* hero section start end */
+
+/* custom border redious  */
+.cstm-rds{
+  border-radius: 20px 0px 40px 20px;  
+}
+/* custom border redious end */
