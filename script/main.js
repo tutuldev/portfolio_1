@@ -1,14 +1,16 @@
-
-        //   const inputElement = document.getElementById('myInput');
-        //   const targetElement = document.getElementById('targetElement');
-        //   const prnDev = document.getElementById('prnDev');
-          
-        //   inputElement.addEventListener('focus', () => {
-        //       targetElement.classList.remove('hidden');
-        //       prnDev.classList.add('focus-color');
-        //   });
-          
-        //   inputElement.addEventListener('blur', () => {
-        //       targetElement.classList.add('hidden');
-        //       prnDev.classList.remove('focus-color');
-        //   });
+$('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
