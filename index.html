@@ -25,33 +25,35 @@
     <!-- hero section start  -->
     <div class="main h-[700px]">
         <!-- nav bar start  -->
-        <nav class=" mt-5 absolute w-full z-10 bg-[#5E5C5C] opacity-70">
+        <nav class="md:mt-5 mt-0 absolute w-full  z-[100] bg-[#5E5C5C] opacity-70" id="nav-bar">
             <div
-                class="nav-bar text-white h-[70px] lg:px-[10%] px-[5%]  container mx-auto flex items-center justify-between  ">
-                <div class="brand-logo ">
+                class="nav-container text-white py-4 lg:px-[10%] px-[5%]  container mx-auto gap-y-7 flex  md:flex-row md:items-center justify-between md:justify-between  ">
+                <div class="brand-logo flex justify-between">
                     <h1 class="text-lg font-bold cursor-pointer"><a href="#" class="">Rx -JON</a></h1>
+                    <div class="hidden md:hidden menu-btn1 ">
+                        <!-- <i class="fa-solid fa-x"></i> -->
+                        <span class="font-bold	cursor-pointer "><i class="fa-solid fa-x border border-gray-400 px-3 py-2 "></i></span>
+                    </div>
+                    
                 </div>
                 <div class="link-section hidden md:block text-base font-medium ">
-                    <a href="#" class="rounded-md  px-3 py-2  text-white" aria-current="page">Home</a>
-                    <a href="#" class="rounded-md px-3 py-2  text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
-                    <a href="#"
-                        class="rounded-md px-3 py-2  text-gray-300 hover:bg-gray-700 hover:text-white">Portfolio</a>
-                    <a href="#" class="rounded-md px-3 py-2  text-gray-300 hover:bg-gray-700 hover:text-white">Blog</a>
-                    <a href="#"
-                        class="rounded-md px-3 py-2  text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+                    <a href="#" class="rounded-md pr-6 md:px-3 py-2 block md:inline-block text-white" aria-current="page">Home</a>
+                    <a href="#" class="rounded-md pr-6 md:px-3 py-2 block md:inline-block text-gray-300 md:hover:bg-gray-700 hover:text-white">About</a>
+                    <a href="#" class="rounded-md pr-6 md:px-3 py-2 block md:inline-block text-gray-300 md:hover:bg-gray-700 hover:text-white">Portfolio</a>
+                    <a href="#" class="rounded-md pr-6 md:px-3 py-2 block md:inline-block text-gray-300 md:hover:bg-gray-700 hover:text-white">Blog</a>
+                    <a href="#" class="rounded-md pr-6 md:px-3 py-2 block md:inline-block text-gray-300 md:hover:bg-gray-700 hover:text-white">Contact</a>
                 </div>
-                <div class="lang sm:block md:hidden">
-                    <span class="font-bold	cursor-pointer "><i
-                            class="fa-solid fa-bars border border-gray-400 p-2"></i></span>
+                <div class="lang hidden md:block py-5  md:pb-0">
+                    <span class="rounded-full bg-red-600 hover:bg-red-500 p-4 font-bold	cursor-pointer lang-btn ">En</span>
                 </div>
-                <div class="lang hidden md:block">
-                    <span class="rounded-full bg-red-600 hover:bg-red-500 p-4 font-bold	cursor-pointer ">En</span>
+                <div class=" md:hidden hidde menu-btn2 ">
+                    <span class="font-bold	cursor-pointer "><i class="fa-solid fa-bars border border-gray-400 p-2 "></i></span>
                 </div>
             </div>
         </nav>
         <!-- nav bar end  -->
         <div class="tit text-white text-center relative z-20">
-            <h3 class="pt-64 text-2xl z-20">Welcome</h3>
+            <h3 class="pt-72 text-2xl z-20">Welcome</h3>
             <h2 class="text-5xl pt-2">I'm <span class="text-red-600">Stephen</span> Doe</h2>
             <h3 class="prof relative text-base font-bold  mt-6  z-10  py-3 px-6 inline-block  text-red-600 
                 before:content-[' ']
@@ -73,9 +75,6 @@
     </div>
     <!-- main div overlay end -->
     <!-- hero section end  -->
-
-
-
     <!-- details section start  -->
     <section
         class="self-dtls mt-40 mb-40 lg:px-[10%] px-[5%]   container mx-auto flex  flex-wrap md:flex-nowrap justify-center border-[5px]">
@@ -453,7 +452,6 @@
       <!-- footer section  -->
        <footer class="bg-gray-900 text-white">
         <h6 class="text-center text-gray-400 font-semibold text-4xl py-10">Virctual Folio</h6>
-
         <section class="lg:px-[10%] px-[5%] flex flex-wrap container mx-auto gap-y-20">
             <div class=" w-full lg:w-2/4 ">
                 <h5 class="text-xl font-thin text-gray-500">Where to find me</h5>
